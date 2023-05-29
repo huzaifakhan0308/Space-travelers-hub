@@ -1,0 +1,33 @@
+body {
+  background-image: url("./Assets/universe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* nav */
+
+.logo-img {
+  width: 70px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkNvb {
+  margin-left: 1.5rem;
+}
+
+.linkNvb:hover {
+  color: darkorange;
+}
+
+.homeTitle {
+  min-width: 60vh;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

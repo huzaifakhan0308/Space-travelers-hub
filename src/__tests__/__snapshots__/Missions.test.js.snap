@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component renders correctly 1`] = `
+<div
+  className="mt-3 container"
+>
+  <table
+    className=" border border-warning table table-dark table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th
+          className="fs-4 text-warning"
+        >
+          Mission
+        </th>
+        <th
+          className="fs-4 text-warning"
+        >
+          Description
+        </th>
+        <th
+          className="fs-4 text-warning"
+        >
+          Status
+        </th>
+        <th
+          className=" text-dark"
+        >
+          .
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

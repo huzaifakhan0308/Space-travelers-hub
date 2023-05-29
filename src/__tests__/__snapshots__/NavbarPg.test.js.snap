@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className=" border-bottom   navbar navbar-expand-lg navbar-dark bg-dark"
+>
+  <div
+    className="container"
+  >
+    <a
+      aria-current="page"
+      className="fw-bolder fs-3 text-white active"
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        className="d-inline-block align-top"
+        height="40"
+        src="planet.png"
+        width="50"
+      />
+       
+      Space Travelers‘ Hub
+    </a>
+    <button
+      aria-controls="responsive-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="fs-5  navbar-collapse collapse"
+      id="responsive-navbar-nav"
+    >
+      <div
+        className="me-auto  flex-grow-1 pe-3 justify-content-end  navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className=" text-white linkNvb"
+          href="/rockets"
+          onClick={[Function]}
+        >
+          Rockets
+        </a>
+        <a
+          className=" text-white linkNvb"
+          href="/missions"
+          onClick={[Function]}
+        >
+          Missions
+        </a>
+        <div
+          className="vr bg-white mx-3"
+        />
+        <a
+          className=" text-white linkNvb"
+          href="/my-profile"
+          onClick={[Function]}
+        >
+          My Profile
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
